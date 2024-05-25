@@ -30,6 +30,11 @@ This Streamlit application allows you to upload resumes (in PDF format) and ente
    
    ```
    pip install -r requirements.txt
+
+3.  Run Application
+
+   ```
+   streamlit run app.py
    
 ## How It Works
 
