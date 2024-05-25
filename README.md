@@ -16,7 +16,6 @@ This Streamlit application allows you to upload resumes (in PDF format) and ente
 - streamlit
 - PyPDF2
 - spacy
-- pyresparser
 - scikit-learn
 
 ## Installation
@@ -38,7 +37,7 @@ Text Extraction: The application extracts text from the uploaded PDF resumes usi
 
 Text Preprocessing: The extracted text is preprocessed using the spaCy NLP model to remove stop words and perform lemmatization.
 
-Resume Parsing: The resumes are parsed using pyresparser to extract relevant fields such as skills, experience, and degree.
+Resume Parsing: The resumes are parsed to extract relevant fields such as skills, experience, and degree.
 
 Similarity Calculation: The job description and the relevant fields from the resumes are vectorized using TF-IDF. The similarity between the job description and each resume is calculated using cosine similarity.
 
