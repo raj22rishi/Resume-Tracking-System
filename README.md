@@ -35,7 +35,7 @@ This Streamlit application allows you to upload resumes (in PDF format) and ente
 
    ```
    streamlit run app.py
-   
+``` 
 ## How It Works
 
 Text Extraction: The application extracts text from the uploaded PDF resumes using PyPDF2.
